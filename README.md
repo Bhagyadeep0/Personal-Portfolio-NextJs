@@ -29,8 +29,4 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 ## Author
 
-- Your Name
-
-## License
-
-This project is MIT licensed.
+- Bhagyadeep Ghosh
