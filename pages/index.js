@@ -36,6 +36,11 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
+      {/* image */}
+      <div>
+        {/* background image */}
+        <div></div>
+      </div>
     </div>
   );
 };
