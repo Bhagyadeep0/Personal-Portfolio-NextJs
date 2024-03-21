@@ -37,10 +37,17 @@ const Home = () => {
         </div>
       </div>
       {/* image */}
-      <div>
+      <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* background image */}
-        <div></div>
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full mix-blend-color-dodge opacity-100 absolute z-0"></div>
       </div>
+      {/* particles */}
+      <div>Particles</div>
+      {/* avatar.png */}
+      <div>
+      <Avatar />
+      </div>
+
     </div>
   );
 };
