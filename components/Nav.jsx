@@ -33,7 +33,7 @@ const Nav = () => {
       
       <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-20  xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
         {navData.map((data)=>{
-          return <Link className={`${data.path === pathname && 'text-accent bg-white/75 rounded-sm p-1 text-center'} relative flex items-center group hover:text-accent transition-all duration-300`} href={data.path} key={data}>
+          return (<Link className={`${data.path === pathname && 'text-accent bg-white/75 rounded-sm p-1 text-center'} relative flex items-center group hover:text-accent transition-all duration-300`} href={data.path} key={data}>
 
             {/* tooltip */}
             <div className='absolute pr-14 right-0 pointer-events-none opacity-0 xl:group-hover:opacity-100 transition-all duration-300'>
@@ -48,7 +48,7 @@ const Nav = () => {
           <div>{data.icon}</div>
           
           
-          </Link>
+          </Link>);
         })}
       </div>
     </nav>
