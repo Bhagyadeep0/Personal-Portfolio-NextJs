@@ -4,15 +4,15 @@ import {
   RiInstagramLine,
   RiTwitterLine,
   RiGithubLine,
-  RiFacebookLine,
+  RiLinkedinLine,
 } from "react-icons/ri";
 
 const socialLink = [
-  { id: 1, name: "Behance", url: "", icon: <RiBehanceLine /> },
-  { id: 2, name: "Instagram", url: "", icon: <RiInstagramLine /> },
-  { id: 3, name: "Twitter", url: "", icon: <RiTwitterLine /> },
-  { id: 4, name: "Github", url: "", icon: <RiGithubLine /> },
-  { id: 5, name: "Facebook", url: "", icon: <RiFacebookLine /> },
+  { id: 1, name: "Behance", url: "https://www.behance.net/bhagyadeep_ghosh", icon: <RiBehanceLine /> },
+  { id: 2, name: "Instagram", url: "https://www.instagram.com/r.a.i.d.e.n.77/", icon: <RiInstagramLine /> },
+  { id: 3, name: "Twitter", url: "https://twitter.com/bhagyadeepghosh", icon: <RiTwitterLine /> },
+  { id: 4, name: "Github", url: "https://github.com/Bhagyadeep0", icon: <RiGithubLine /> },
+  { id: 5, name: "LinkedIn", url: "https://linkedin.com/in/bhagyadeep-ghosh-03705924b/", icon: <RiLinkedinLine /> },
 ];
 const Socials = () => {
   return (
@@ -22,6 +22,7 @@ const Socials = () => {
 
           <Link
             href={link.url}
+            target="_blank"
             key={link.id}
             className="hover:text-accent transition-all duration-200 ease-in-out relative group"
           >
