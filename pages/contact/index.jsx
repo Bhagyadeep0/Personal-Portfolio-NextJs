@@ -7,9 +7,8 @@ import { BsArrowRight } from "react-icons/bs";
 // framer motion
 import { motion } from "framer-motion";
 
-
 //variants
-import {fadeIn} from "../../variants";
+import { fadeIn } from "../../variants";
 
 const Contact = () => {
   return (
@@ -19,19 +18,23 @@ const Contact = () => {
         {/* text & form */}
         <div className=" flex flex-col w-full max-w-[700px]">
           {/* text */}
-          <motion.h2  variants={fadeIn("up")}
+          <motion.h2
+            variants={fadeIn("up")}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-center mb-12">
+            className="h2 text-center mb-12"
+          >
             Let's Work <span className="text-accent">Together.</span>
           </motion.h2>
           {/* form */}
-          <motion.form  variants={fadeIn("up")}
+          <motion.form
+            variants={fadeIn("up")}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className=" relative flex-1 flex flex-col justify-center gap-6 w-full mx-auto">
+            className=" relative flex-1 flex flex-col justify-center gap-6 w-full mx-auto"
+          >
             {/* input group */}
             <div className="flex gap-x-6 w-full mx-auto">
               <input
@@ -39,17 +42,22 @@ const Contact = () => {
                 id="name"
                 placeholder="Name"
                 className="input"
-              
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Email"
                 className="input"
-                required title="please enter valid email id"
+                required
+                title="please enter valid email id"
               />
             </div>
-            <input type="text" placeholder="subject" className="input" required/>
+            <input
+              type="text"
+              placeholder="subject"
+              className="input"
+              required
+            />
             <textarea
               placeholder="your message..."
               className="textarea"
