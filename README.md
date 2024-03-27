@@ -1,6 +1,6 @@
 # Next.js + Tailwind CSS + Framer Motion Portfolio
 
-This is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. This project is a clone of the portfolio starter repository from cristianmihai01.
+This is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. This project is made with the portfolio starter repository from cristianmihai01.
 
 ## Features
 
