@@ -9,6 +9,7 @@ import WorkSlider from "../../components/WorkSlider";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 
+
 //framer motion
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -39,12 +40,14 @@ const Work = () => {
             </motion.p>
           </motion.div>
           {/* slider */}
-          <motion.div variants={fadeIn("down",0.5)}
+          <motion.div
+            variants={fadeIn("down", 0.5)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full xl:max-w-[65%] z-10">
-          <WorkSlider />
+            className="w-full xl:max-w-[65%] z-10"
+          >
+            <WorkSlider />
           </motion.div>
         </div>
       </div>
@@ -54,4 +57,3 @@ const Work = () => {
 };
 
 export default Work;
-

@@ -98,5 +98,4 @@ const TestimonialSlider = () => {
     </Swiper>
   );
 };
-
 export default TestimonialSlider;

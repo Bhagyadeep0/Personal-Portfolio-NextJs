@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="container mx-auto h-full flex flex-col justify-center">
         {/* title */}
         <motion.h2
-          variants={fadeIn("down",0.3)}
+          variants={fadeIn("down", 0.3)}
           initial="hidden"
           animate="show"
           exit="hidden"
@@ -18,7 +18,7 @@ const Testimonials = () => {
         </motion.h2>
         {/* slider */}
         <motion.div
-          variants={fadeIn("left",0.3)}
+          variants={fadeIn("left", 0.3)}
           initial="hidden"
           animate="show"
           exit="hidden"

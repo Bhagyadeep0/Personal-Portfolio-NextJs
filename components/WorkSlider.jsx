@@ -101,7 +101,8 @@ const workSlider = () => {
                       <div className="absolute flex justify-center items-center inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700 ">
                         {/* image title */}
                         <h2 className="h2 relative flex justify-center items-center translate-y-80 group-hover:translate-y-0 transition-all duration-300">
-                          {image.title}{image.icon}
+                          {image.title}
+                          {image.icon}
                         </h2>
                       </div>
                     </div>
@@ -115,5 +116,6 @@ const workSlider = () => {
     </Swiper>
   );
 };
+
 
 export default workSlider;
